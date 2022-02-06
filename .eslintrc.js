@@ -1,0 +1,25 @@
+module.exports = {
+  env: {
+    browser: true, // Browser global variables like `window` etc.
+    commonjs: true, // CommonJS global variables and CommonJS scoping.Allows require, exports and module.
+    es2020: true,
+    jest: true, // Jest global variables like `it` etc.
+    node: true, // Defines things like process.env when generating through node
+  },
+  extends: [],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 2020, // Allows for the parsing of modern ECMAScript features
+    sourceType: 'module', // Allows for the use of imports
+  },
+  plugins: [],
+  root: true, // For configuration cascading.
+  rules: {},
+  settings: {
+    react: {
+      version: 'detect', // Detect react version
+    },
+  },
+}

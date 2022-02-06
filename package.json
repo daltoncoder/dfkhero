@@ -9,7 +9,15 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@reach/portal": "^0.16.2",
+    "axios": "^0.25.0",
+    "ethers": "^5.5.4",
+    "luxon": "^2.3.0",
+    "polished": "^4.1.4",
+    "react-popper": "^2.2.5",
+    "@popperjs/core": "^2.11.2",
+    "styled-components": "^5.3.3"
   },
   "scripts": {
     "start": "react-scripts start",
