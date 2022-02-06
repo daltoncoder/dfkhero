@@ -15,7 +15,7 @@ buildApiHero(rawHero)
 
 -DfkHeroCard
 
-- this is the react component to display the card, Takes 3 properties hero, isAnimated, isFlipped. Hero is the only required property just make sure its an ApiHero from on of the other functions. if isFlipped is toggled it will be animated flip
+- this is the react component to display the card, Takes 3 properties hero, isAnimated, isFlipped. Hero is the only required property just make sure its an ApiHero from one of the other functions. if isFlipped is toggled it will be animated flip
 
 -DfkHeroSprite
 
