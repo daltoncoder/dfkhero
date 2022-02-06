@@ -21,6 +21,6 @@ buildApiHero(rawHero)
 
 - this a react component to display a hero sprite without its card. Currently only takes on property which is the heroApi object
 
-app.js is currently an ugly of using this
+app.js is currently an ugly example of using this
 
 Made with the help of Kalash#2298 in gathering all the svgs needed for this
