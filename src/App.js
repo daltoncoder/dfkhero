@@ -23,7 +23,7 @@ function App() {
       }}
     >
       <div onClick={() => setFlip(!flip)}>
-        {hero && <DfkHeroCard hero={hero} isFlipped={flip} animated={true} />}
+        {hero && <DfkHeroCard hero={hero} isFlipped={flip} isAnimated={true} />}
       </div>
       <div style={{ justifyContent: 'center' }}>
         <h1>Type Hero ID to display</h1>

@@ -5,11 +5,11 @@ import { buildAPIHero } from './utils'
 import axios from 'axios'
 
 export const DfkHeroCard = ({ hero, isAnimated, isFlipped }) => {
-  return <HeroCard hero={hero} isAnimited={isAnimated} isFlipped={isFlipped} />
+  return <HeroCard hero={hero} isAnimated={isAnimated} isFlipped={isFlipped} />
 }
 
-export const DfkHeroSprite = () => {
-  return <HeroSprite noCard={true} />
+export const DfkHeroSprite = ({ hero }) => {
+  return <HeroSprite noCard={true} hero={hero} />
 }
 
 export const getApiHero = async (id) => {
